@@ -1,0 +1,28 @@
+{
+  "name": "brickchain-contracts",
+  "version": "1.0.0",
+  "description": "This repository contains the source code of a **Smart Contract (SC)** developed in Solidity. This contract is designed for token management, purchase and resale of tokens for the brickchain platform.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tania Barron",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^4.9.3",
+    "@openzeppelin/hardhat-upgrades": "^3.0.2",
+    "chai": "^4.2.0",
+    "hardhat": "^2.22.15",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "hardhat-preprocessor": "^0.1.5",
+    "web3": "^4.8.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": []
+}
